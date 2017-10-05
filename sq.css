@@ -1,0 +1,38 @@
+body
+{
+	
+	background-image: url(go.jpg);
+	background-size: cover;
+	color:white;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul li{
+	float: left;
+	background-color: orange;
+	width: 200px;
+	height: 40px;
+	opacity: .8;
+	line-height: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+ul li a{
+	text-decoration: none;
+	display: block;
+	color:white;
+}
+ul li a:hover{
+	background-color: green;
+}
+ul li ul li
+{
+	display: none;
+}
+ul li:hover ul li
+{
+	display: block;
+}
